@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>订单管理系统</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/lib/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/lib/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/lib/ml5shiv.min.js"></script>
+    <script src="js/lib/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <div class="left_header">
+                <p class="headImg"><img src="images/tx.png" alt=""></p>
+                <p class="userName">admin</p>
+                <p class="admin_class">(系统管理员)</p>
+                <p class="logout"><input type="button" value="注销"></p>
+            </div>
+
+            <ul class="nav nav-sidebar">
+                <li class="active1"><a href="goods.html" target="menuFrame">配件查询</a></li>
+                <li class="active1"><a href="order.html" target="menuFrame">订单明细</a></li>
+                <li class="active1"><a href="order-wsl.html" target="menuFrame">未受理订单</a></li>
+
+            </ul>
+
+            <div class="left_footer">
+                <img src="images/logo-footer.png" alt="">
+            </div>
+
+        </div>
+
+<!--left-->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="placeholder page-header">
+                <span class="h2">欢迎登陆</span>
+                <span class="setIcon pull-right">
+                <a href="javascript:;"><span class="glyphicon glyphicon-refresh"></span></a>
+                <a href="javascript:;"><span class="glyphicon glyphicon-cog"></span></a>
+                <a href="javascript:;"><span class="glyphicon glyphicon-envelope"></span></a>
+                </span>
+            </div>
+
+            <iframe id="menuFrame" name="menuFrame" src=""  scrolling="no" frameborder="no" width="100%" style="min-height:600px">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/lib/jquery-1.12.4.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="js/lib/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/lib/ie10-viewport-bug-workaround.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
